@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hernan Acero's Portfolio</title>
-        <meta name="description" content="Hernan Acero´s portfolio" />
+        <title>Hernan Acero Portfolio</title>
+        <meta name="description" content="Hernan Acero Portfolio" />
       </Head>
       <div className="app">
         <Navbar />
