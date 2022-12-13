@@ -124,8 +124,28 @@ export const projects = [
     title: "MiTienda",
     description:
       "An application to create your own store made with NextJS,Typescript, TailwindCSS, NodeJS, ExpressJS, Docker and PostgreSQL",
-    projectLink: "https://mitienda-frontend.vercel.app",
+    projectLink: "https://mitienda.hacero.me",
     codeLink: "https://github.com/acerohernan/mitienda-frontend",
+    tags: ["ReactJS", "Web"],
+  },
+  {
+    imgUrl: "/assets/projects/tinder-dogs.gif",
+    name: "tinder-dogs",
+    title: "Tinder Dogs",
+    description:
+      "An tinder clon made with ReactJS, SASS, Redux, NodeJS, Express and MongoDB",
+    projectLink: "https://hotdogs.hacero.me",
+    codeLink: "https://github.com/acerohernan/hot-dogs",
+    tags: ["ReactJS", "Web"],
+  },
+  {
+    imgUrl: "/assets/projects/code-store.gif",
+    name: "code-store",
+    title: "Code Store",
+    description:
+      "An store made with ReactJS, Typescript, SASS, Redux, NodeJS, Express and MongoDB",
+    projectLink: "https://code.hacero.me",
+    codeLink: "https://github.com/acerohernan/code-store",
     tags: ["ReactJS", "Web"],
   },
   {
@@ -134,7 +154,7 @@ export const projects = [
     title: "Hernan Store",
     description:
       "An store made with ReactJS, Typescript, SASS, Redux, NodeJS, Express and MongoDB",
-    projectLink: "https://store-react-ts.herokuapp.com/",
+    projectLink: "https://store.hacero.me",
     codeLink: "https://github.com/acerohernan/store_react_ts",
     tags: ["ReactJS", "Web"],
   },
@@ -147,26 +167,6 @@ export const projects = [
     projectLink: "https://delivery-app-by-hernan.uptodown.com/android",
     codeLink: "https://github.com/acerohernan/delivery-app-react-native",
     tags: ["ReactJS", "Mobile"],
-  },
-  {
-    imgUrl: "/assets/projects/tinder-dogs.gif",
-    name: "tinder-dogs",
-    title: "Tinder Dogs",
-    description:
-      "An tinder clon made with ReactJS, SASS, Redux, NodeJS, Express and MongoDB",
-    projectLink: "https://acerohernan.github.io/hot-dogs",
-    codeLink: "https://github.com/acerohernan/hot-dogs",
-    tags: ["ReactJS", "Web"],
-  },
-  {
-    imgUrl: "/assets/projects/code-store.gif",
-    name: "code-store",
-    title: "Code Store",
-    description:
-      "An store made with ReactJS, Typescript, SASS, Redux, NodeJS, Express and MongoDB",
-    projectLink: "https://acerohernan.github.io/code-store/",
-    codeLink: "https://github.com/acerohernan/code-store",
-    tags: ["ReactJS", "Web"],
   },
 ];
 
