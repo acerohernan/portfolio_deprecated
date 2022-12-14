@@ -28,5 +28,8 @@
   "Optimization and maintenance of Web Apps made in ReactJS to avoid obsolete renderings.": "Optimización y mantenimiento de Web Apps realizadas en ReactJS para evitar renderizaciones obsoletas.",
   "Landing page layout built with HTML, SASS and Javascript.": "Maquetación de landing pages construidos con HTML, SASS y Javascript.",
   "Design of administrative panels with ReactJS, VueJS, SASS and Bootstrap (Frontend).": "Maquetación de paneles administrativos con ReactJS, VueJS, SASS y Bootstrap (Frontend).",
-  "Contact Me": "Contáctame"
+  "Contact Me": "Contáctame",
+  "Development of a sales and inventory management system, with integrated electronic invoicing, branch management, statistics. Made with ReactJS, Bootstrap on the frontend and NodeJS, ExpressJS, SQLServer, Docker, AWS S2, AWS EC2 in the backend.": "Desarrollo de un sistema de administración de ventas e inventario, con facturación electrónica integrada, manejo de sucursales, estadística. Realizada con ReactJS, Boostrap en el frontend y NodeJS, ExpressJS, SQLServer, Docker, AWS S2 y AWS EC2 en el backend.",
+  "Detection and solution of performance problems, obsolete renderings and performance in applications made with ReactJS.": "Detección y solución de problemas de performance, rederizaciones obsoletas y de rendimiento en aplicaciones realizadas con ReactJS.",
+  "Addition of provider for card payments within the application.": "Adición de proveedor para pagos con tarjeta dentro de la aplicación"
 }

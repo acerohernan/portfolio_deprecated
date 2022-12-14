@@ -81,10 +81,9 @@ export const experiences = [
         name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Atik Soluciones S.A",
         desc: [
-          "Integrated billing addition for an accounting and management software built on ReactJS and NodeJS.",
-          "Development of new functionalities for the system in Frontend with ReactJs, Bootstrap, and on the Backend side, with NodeJs, Express and MySQL.",
-          "Detection and solution of errors in the accounting part of the system.",
-          "Optimization of the application in performance issues.",
+          "Development of a sales and inventory management system, with integrated electronic invoicing, branch management, statistics. Made with ReactJS, Bootstrap on the frontend and NodeJS, ExpressJS, SQLServer, Docker, AWS S2, AWS EC2 in the backend.",
+          "Detection and solution of performance problems, obsolete renderings and performance in applications made with ReactJS.",
+          "Addition of provider for card payments within the application",
         ],
       },
     ],
