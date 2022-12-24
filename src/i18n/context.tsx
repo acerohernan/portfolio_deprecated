@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { EN, Language, languages } from "./config/languages";
+import { EN, ES, Language, languages } from "./config/languages";
 import { fetchLocale } from "./helpers";
 import { ILanguageContext, ILanguageState, TranslateFunction } from "./types";
 
@@ -25,7 +25,9 @@ export const LanguageProvider: React.FC<React.PropsWithChildren<{}>> = ({
   React.useEffect(() => {
     const locale = localStorage.getItem(LS_KEY);
 
-    if (locale !== EN.locale) setLanguage(languages[locale as string]);
+    if(!locale) setLanguage(ES);
+
+    if (locale && locale !== EN.locale) setLanguage(languages[locale as string]);
   }, []);
 
   const setLanguage = React.useCallback(async (language: Language) => {

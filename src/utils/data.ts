@@ -81,9 +81,9 @@ export const experiences = [
         name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Atik Soluciones S.A",
         desc: [
-          "Development of a sales and inventory management system, with integrated electronic invoicing, branch management, statistics. Made with ReactJS, Bootstrap on the frontend and NodeJS, ExpressJS, SQLServer, Docker, AWS S2, AWS EC2 in the backend.",
-          "Detection and solution of performance problems, obsolete renderings and performance in applications made with ReactJS.",
-          "Addition of provider for card payments within the application",
+          "Development of a sales and inventory management system, with electronic invoicing, branch management and statistics. ReactJS was used and NodeJS was used in the backend, Microsoft SQL Server as the database, Amazon S3 for uploading images and files, SendGrid for sending emails, among other technologies. The deployment was done in the AWS cloud with the help of the ECS (Elastic Container Service) and ELB (Elatic Load Balance) service, which carried out a horizontal scaling of the system.",
+          "Development of the deployment pipeline for test and production environments with the help of AWS ECR, AWS CodeBuild and AWS CodeDeploy.",
+          "Use of AWS Lambda for extra system functionalities, reducing workload and increasing application performance.",
         ],
       },
     ],
@@ -95,8 +95,9 @@ export const experiences = [
         name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Chamorro Solutions S.A.C",
         desc: [
-          "Creation of administrative panels with ReactJS and Typescript, a state managed by Redux, styles with SASS and connection to REST API created in NodeJs, Express and MySQL.",
-          "Optimization and maintenance of Web Apps made in ReactJS to avoid obsolete renderings.",
+          "Development and supervision of web applications made with ReactJS, helping to improve performance.",
+          "Development of REST services with NodeJS and MongoDB as database.",
+          "Construction of Continuous Integration workflow for various projects with AWS CodePipeline, for its subsequent deployment in EC2 instances."
         ],
       },
     ],

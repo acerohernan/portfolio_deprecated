@@ -51,7 +51,7 @@ const Navbar = () => {
                     onClick={() => setToggle(false)}
                     style={{ cursor: "pointer" }}
                   >
-                    {item}
+                    {t(item)}
                   </a>
                 </li>
               ))}
