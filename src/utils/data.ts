@@ -173,7 +173,7 @@ export const projects = [
 export const abouts = [
   {
     title: "Hi, I'm Hernan",
-    imgUrl: "/assets/profile.png",
+    imgUrl: "/assets/profile2.png",
     desc: [
       "I am a Full Stack Developer, specialized in the Javascript language and passionate about React and NodeJS features. I have more than 2 years of professional experience working with tecnologies like ReactJS, NextJS in the frontend and NodeJS, ExpressJS, Docker, PostgreSQL, MySQL, SQLServer, MongoDB, AWS and Google Cloud in the backend. You can see some of my work below.",
       "I am interested in job opportunities where I can contribute, learn and grow at the same time. Regarding soft skills, I am communicative and have no problems with teamwork. If you have any opportunity for me, do not hesitate to contact me.",
