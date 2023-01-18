@@ -16,6 +16,14 @@ export const skills = [
     icon: "/assets/sass.png",
   },
   {
+    name: "TailwindCSS",
+    icon: "/assets/tailwindcss.png",
+  },
+  {
+    name: "CSS-in-JS",
+    icon: "/assets/styled-components.png",
+  },
+  {
     name: "Typescript",
     icon: "/assets/typescript.png",
   },
@@ -28,36 +36,32 @@ export const skills = [
     icon: "/assets/redux.png",
   },
   {
+    name: "Storybook",
+    icon: "/assets/storybook.png",
+  },
+  {
+    name: "Jest",
+    icon: "/assets/jest.png",
+  },
+  {
+    name: "Testing Library",
+    icon: "/assets/react-testing-library.png",
+  },
+  {
+    name: "Cypress",
+    icon: "/assets/cypress.png",
+  },
+  {
     name: "NextJS",
     icon: "/assets/next.png",
   },
   {
+    name: "GraphQL",
+    icon: "/assets/graphql.png",
+  },
+  {
     name: "NodeJS",
     icon: "/assets/node.png",
-  },
-  {
-    name: "ExpressJS",
-    icon: "/assets/express.png",
-  },
-  {
-    name: "NestJS",
-    icon: "/assets/nestjs.png",
-  },
-  {
-    name: "MongoDB",
-    icon: "/assets/mongo.png",
-  },
-  {
-    name: "MySQL",
-    icon: "/assets/mysql.png",
-  },
-  {
-    name: "SQLServer",
-    icon: "/assets/sqlserver.png",
-  },
-  {
-    name: "PostgreSQL",
-    icon: "/assets/postgresql.png",
   },
   {
     name: "Docker",
@@ -68,9 +72,17 @@ export const skills = [
     icon: "/assets/aws.png",
   },
   {
-    name: "Google Cloud",
-    icon: "/assets/googlecloud.png",
+    name: "Vercel",
+    icon: "/assets/vercel.png",
+  } /* ,
+  {
+    name: "Figma",
+    icon: "/assets/figma.png",
   },
+  {
+    name: "AdobeXD",
+    icon: "/assets/adobexd.png",
+  }, */,
 ];
 
 export const experiences = [
