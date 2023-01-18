@@ -1,7 +1,14 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
+import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialMedia = () => (
   <div className="app__social">
+    <Link href="/cv.pdf" target="_blank" rel="noreferrer">
+      <div>
+        <FaFilePdf />
+      </div>
+    </Link>
+
     <a href="https://github.com/acerohernan" target="_blank" rel="noreferrer">
       <div>
         <FaGithub />
