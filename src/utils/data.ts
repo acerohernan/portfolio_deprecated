@@ -78,7 +78,7 @@ export const experiences = [
     year: "Mar 2022 - Dec 2022",
     works: [
       {
-        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
+        name: "Full-stack Developer",
         company: "Atik Soluciones S.A",
         desc: [
           "Development of a sales and inventory management system, with electronic invoicing, branch management and statistics. ReactJS was used and NodeJS was used in the backend, Microsoft SQL Server as the database, Amazon S3 for uploading images and files, SendGrid for sending emails, among other technologies. The deployment was done in the AWS cloud with the help of the ECS (Elastic Container Service) and ELB (Elatic Load Balance) service, which carried out a horizontal scaling of the system.",
@@ -92,12 +92,12 @@ export const experiences = [
     year: "Jan 2021 - Feb 2022",
     works: [
       {
-        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
+        name: "Full-stack Developer",
         company: "Chamorro Solutions S.A.C",
         desc: [
           "Development and supervision of web applications made with ReactJS, helping to improve performance.",
           "Development of REST services with NodeJS and MongoDB as database.",
-          "Construction of Continuous Integration workflow for various projects with AWS CodePipeline, for its subsequent deployment in EC2 instances."
+          "Construction of Continuous Integration workflow for various projects with AWS CodePipeline, for its subsequent deployment in EC2 instances.",
         ],
       },
     ],
@@ -106,7 +106,7 @@ export const experiences = [
     year: "Sep 2020 - Jan 2021",
     works: [
       {
-        name: "Frontend Developer | ReactJS Developer | VueJS Developer",
+        name: "Front-end Web Developer",
         company: "Autónomo",
         desc: [
           "Landing page layout built with HTML, SASS and Javascript.",
@@ -175,7 +175,7 @@ export const abouts = [
     title: "Hi, I'm Hernan",
     imgUrl: "/assets/profile2.png",
     desc: [
-      "I am a Full Stack Developer, specialized in the Javascript language and passionate about React and NodeJS features. I have more than 2 years of professional experience working with tecnologies like ReactJS, NextJS in the frontend and NodeJS, ExpressJS, Docker, PostgreSQL, MySQL, SQLServer, MongoDB, AWS and Google Cloud in the backend. You can see some of my work below.",
+      "Front-end developer with more than 2 years and 5 months of professional experience creating and implementing design systems with Javascript. I am qualified and familiar with a wide range of utilities and technologies in the front web development. You can see part of me work below.",
       "I am interested in job opportunities where I can contribute, learn and grow at the same time. Regarding soft skills, I am communicative and have no problems with teamwork. If you have any opportunity for me, do not hesitate to contact me.",
     ],
   },
