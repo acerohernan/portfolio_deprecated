@@ -9,7 +9,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text" style={{ maxWidth: "750px" }}>
-        "{t("Hard Work Beats Talent When Talent Doesn't Work Hard")}"
+        &apos;&apos;{t("Hard Work Beats Talent When Talent Doesn't Work Hard")}
+        &apos;&apos;
       </h2>
 
       <div className="app__profiles">
