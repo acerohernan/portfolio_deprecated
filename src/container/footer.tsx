@@ -8,7 +8,7 @@ const Footer = () => {
       <h2 className="head-text">{t("Contact Me")}</h2>
       <div className="app__footer-cards">
         <a className="app__footer-card" href="tel:+51999113934">
-          <img src="/assets/mobile.png" alt="phone" />
+          <img src="/assets/phone.svg" alt="phone" />
           <p className="p-text">+51 999113934</p>
         </a>
         <a
@@ -17,15 +17,15 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/assets/whatsapp.png" alt="phone" />
+          <img src="/assets/whatsapp.svg" alt="phone" />
           <p className="p-text">Whatsapp</p>
         </a>
         <a
           className="app__footer-card"
           href="mailto:contacto.acero.hernan@gmail.com"
         >
-          <img src="/assets/email.png" alt="email" />
-          <p className="p-text">contacto.acero.hernan@gmail.com</p>
+          <img src="/assets/email.svg" alt="email" />
+          <p className="p-text">contact.acero.hernan@gmail.com</p>
         </a>
         <a
           className="app__footer-card"
@@ -33,7 +33,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/assets/github.png" alt="email" />
+          <img src="/assets/github.svg" alt="email" />
           <p className="p-text">GitHub</p>
         </a>
       </div>

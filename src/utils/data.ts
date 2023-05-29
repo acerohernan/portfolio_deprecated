@@ -1,128 +1,133 @@
 export const skills = [
   {
-    name: "HTML",
-    icon: "/assets/html.png",
-  },
-  {
-    name: "CSS",
-    icon: "/assets/css.png",
-  },
-  {
-    name: "JS",
-    icon: "/assets/javascript.png",
-  },
-  {
-    name: "SASS",
-    icon: "/assets/sass.png",
-  },
-  {
-    name: "TailwindCSS",
-    icon: "/assets/tailwindcss.png",
-  },
-  {
-    name: "CSS-in-JS",
-    icon: "/assets/styled-components.png",
+    name: "Javascript",
+    icon: "/assets/javascript.svg",
   },
   {
     name: "Typescript",
-    icon: "/assets/typescript.png",
-  },
-  {
-    name: "React",
-    icon: "/assets/react.png",
-  },
-  {
-    name: "Redux",
-    icon: "/assets/redux.png",
-  },
-  {
-    name: "Storybook",
-    icon: "/assets/storybook.png",
+    icon: "/assets/typescript.svg",
   },
   {
     name: "Jest",
-    icon: "/assets/jest.png",
+    icon: "/assets/jestjs.svg",
   },
   {
-    name: "Testing Library",
-    icon: "/assets/react-testing-library.png",
+    name: "React.js",
+    icon: "/assets/reactjs.svg",
   },
   {
-    name: "Cypress",
-    icon: "/assets/cypress.png",
+    name: "Vue.js",
+    icon: "/assets/vue.svg",
   },
   {
     name: "NextJS",
-    icon: "/assets/next.png",
+    icon: "/assets/nextjs.svg",
   },
   {
-    name: "GraphQL",
-    icon: "/assets/graphql.png",
+    name: "Node.js",
+    icon: "/assets/nodejs.svg",
   },
   {
-    name: "NodeJS",
-    icon: "/assets/node.png",
+    name: "Express.js",
+    icon: "/assets/express.svg",
+  },
+  {
+    name: "Nest.js",
+    icon: "/assets/nestjs.svg",
   },
   {
     name: "Docker",
-    icon: "/assets/docker.webp",
+    icon: "/assets/docker.svg",
+  },
+  {
+    name: "Microservices",
+    icon: "/assets/microservices.png",
+  },
+  {
+    name: "MySQL",
+    icon: "/assets/mysql.svg",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "/assets/postgresql.svg",
+  },
+  {
+    name: "SQLServer",
+    icon: "/assets/sqlserver.png",
+  },
+  {
+    name: "MongoDB",
+    icon: "/assets/mongodb.svg",
+  },
+  {
+    name: "Terraform",
+    icon: "/assets/terraform.svg",
+  },
+  {
+    name: "AWS CDK",
+    icon: "/assets/cdk.svg",
   },
   {
     name: "AWS",
-    icon: "/assets/aws.png",
+    icon: "/assets/aws.svg",
   },
   {
-    name: "Vercel",
-    icon: "/assets/vercel.png",
-  } /* ,
-  {
-    name: "Figma",
-    icon: "/assets/figma.png",
+    name: "Git",
+    icon: "/assets/git.svg",
   },
   {
-    name: "AdobeXD",
-    icon: "/assets/adobexd.png",
-  }, */,
+    name: "Scrum",
+    icon: "/assets/scrum.svg",
+  },
 ];
 
 export const experiences = [
+  {
+    year: "Jan 2023 - May 2023",
+    works: [
+      {
+        name: "Full-stack Developer",
+        company: "Fiverr Referral",
+        desc: [
+          "Building an internal tool to manage the resources for enterprise garage companies",
+          "The tech stack used was React.js with Vite, Node with Nest.js, and AWS for deployment",
+        ],
+      },
+    ],
+  },
   {
     year: "Mar 2022 - Dec 2022",
     works: [
       {
         name: "Full-stack Developer",
-        company: "Atik Soluciones S.A",
+        company: "Atik Solutions S.A",
         desc: [
-          "Development of a sales and inventory management system, with electronic invoicing, branch management and statistics. ReactJS was used and NodeJS was used in the backend, Microsoft SQL Server as the database, Amazon S3 for uploading images and files, SendGrid for sending emails, among other technologies. The deployment was done in the AWS cloud with the help of the ECS (Elastic Container Service) and ELB (Elatic Load Balance) service, which carried out a horizontal scaling of the system.",
-          "Development of the deployment pipeline for test and production environments with the help of AWS ECR, AWS CodeBuild and AWS CodeDeploy.",
-          "Use of AWS Lambda for extra system functionalities, reducing workload and increasing application performance.",
+          "Maintenance of large JavaScript codebases with more than ten thousand lines of code, implementing refactors and improving performance",
+          "Development of a microservices-based management application for big companies in the sausage business",
         ],
       },
     ],
   },
   {
-    year: "Jan 2021 - Feb 2022",
+    year: "Feb 2021 - Jan 2022",
     works: [
       {
-        name: "Full-stack Developer",
+        name: "Javascript Developer",
         company: "Chamorro Solutions S.A.C",
         desc: [
-          "Development and supervision of web applications made with ReactJS, helping to improve performance.",
-          "Development of REST services with NodeJS and MongoDB as database.",
-          "Construction of Continuous Integration workflow for various projects with AWS CodePipeline, for its subsequent deployment in EC2 instances.",
+          "Development of an insurance's company internal tool to manage employees' referrals, the system was microservices-based due the size of the company. Node.js and Express were used",
         ],
       },
     ],
   },
   {
-    year: "Sep 2020 - Jan 2021",
+    year: "Apr 2020 - Jan 2021",
     works: [
       {
-        name: "Front-end Web Developer",
-        company: "Autónomo",
+        name: "Web Developer",
+        company: "Freelancer",
         desc: [
-          "Landing page layout built with HTML, SASS and Javascript.",
-          "Design of administrative panels with ReactJS, VueJS, SASS and Bootstrap (Frontend).",
+          "Development of landing pages and marketing sites with HTML, CSS, JS and Wordpress",
         ],
       },
     ],
@@ -187,7 +192,7 @@ export const abouts = [
     title: "Hi, I'm Hernan",
     imgUrl: "/assets/profile2.png",
     desc: [
-      "Front-end developer with more than 2 years and 5 months of professional experience creating and implementing design systems with Javascript. I am qualified and familiar with a wide range of utilities and technologies in the front web development. You can see part of me work below.",
+      "I'm a Full-stack JavaScript Developer with 3 years of professional experience. I've been building and maintaining scalable, resilient and tested code bases for enterprise applications with JavaScript since 2020.",
       "I am interested in job opportunities where I can contribute, learn and grow at the same time. Regarding soft skills, I am communicative and have no problems with teamwork. If you have any opportunity for me, do not hesitate to contact me.",
     ],
   },
